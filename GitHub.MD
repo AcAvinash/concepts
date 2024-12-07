@@ -28,7 +28,7 @@ Git is a popular distributed/decentralized control system.
 * Staging area is there where can selectively send the changes to the central repo. He can send completed changes and keep working on in-progress features.
 * Developers can work offline with local repos.
 
-![alt text](images/SVN.png)
+![alt text](./SVN.png)
 
 ### SSH Authentication
 1. import the public key in github server
@@ -41,16 +41,16 @@ follow the below syntax
 Host github.com
   HostName github.com
   User git
-  IdentityFile ~/.ssh/sivakumarreddy.pem
+  IdentityFile ~/.ssh/avinash.pem
 
 #techworldwithsiva
 Host github.com-t
   HostName github.com
   User git
-  IdentityFile ~/.ssh/techworldwithsiva
+  IdentityFile ~/.ssh/avinash.pem or D:/avinash.pem
 ```
 
 ~ --> /c/Users/user
 
 #### below line tells you are referring to another github account
-git remote add origin git@github.com-t:sivadevopsdaws74s/concepts.git
+git remote add origin git@github.com-t:AcAvinash/concepts.git
